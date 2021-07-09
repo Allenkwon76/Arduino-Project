@@ -14,7 +14,7 @@ void setup() {
  
 void loop() {
 
-  if (digitalRead(button) == LOW) {
+  if (digitalRead(button) == HIGH) {
     angle += 15;
     if (angle >= 180) {
       angle = 0;
